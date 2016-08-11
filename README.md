@@ -13,21 +13,21 @@
 
 特点：
 
-1、本工具在windows下安装；
+1、本工具在windows下安装；支持linux
 
-2、不限语言平台，java、.net项目均可使用；
+2、不限语言平台，php、java、.net项目均可使用；
 
 3、安装完毕后，可以拷贝至任意目录运行。
 
-安装：
+安装：（linux需要命令安装）
 
 1、以管理员身份运行install.bat。安装过程中，会提示安装node.js，不限安装路径。安装完node.js后，会自动下载安装gulp工具，约3分
 钟，请保持网络畅通。
 
-2、修改gulpfile.js文件，将 src: 'E:\\workspace\\myproject\\src\\main\\webapp\\' 改为您本地代码的web资源目录。注意是双斜杠！
+2、修改gulpfile.js文件，将 src: 'E:\\workspace\\myproject\\src\\main\\webapp\\' 改为您本地代码的web资源目录。注意是双斜杠！（linux不需要双斜杠）
 
 运行：
 
-1、运行run.bat。
+1、运行run.bat。（linux需要切换到更改的项目下执行gulp命令）
 
 2、运行完毕后，进入web资源目录，查看页面中的静态资源引用被替换情况。
